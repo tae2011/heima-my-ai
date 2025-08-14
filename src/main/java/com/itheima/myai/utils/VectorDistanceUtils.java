@@ -13,7 +13,7 @@ public class VectorDistanceUtils {
      * @param vectorA 向量A（非空且与B等长）
      * @param vectorB 向量B（非空且与A等长）
      * @return 欧氏距离
-     * @throws IllegalArgumentException 参数不合法时抛出
+     * @throws IllegalArgumentException 参数不 合法时抛出
      */
     public static double euclideanDistance(float[] vectorA, float[] vectorB) {
         validateVectors(vectorA, vectorB);
