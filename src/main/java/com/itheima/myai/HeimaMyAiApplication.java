@@ -5,6 +5,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
+/**
+ *
+ * 启动类
+ *
+ */
 @MapperScan("com.itheima.myai.mapper")
 @SpringBootApplication
 public class HeimaMyAiApplication {
