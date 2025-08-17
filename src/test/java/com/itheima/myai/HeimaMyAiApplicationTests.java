@@ -30,7 +30,7 @@ class HeimaMyAiApplicationTests {
     @Test
     public void testVectorStore(){
         Resource resource = new FileSystemResource("中二知识笔记.pdf");
-        // 1.创建PDF的读取器
+        // 1.创建PDF的读取器。
         PagePdfDocumentReader reader = new PagePdfDocumentReader(
                 resource, // 文件源
                 PdfDocumentReaderConfig.builder()
