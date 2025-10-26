@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  *
- * 启动类
+ * 服务启动类
  *
  */
 @MapperScan("com.itheima.myai.mapper")
